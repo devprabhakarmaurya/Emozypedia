@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.user-input {
+  width: 60%;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 0.7rem;
+  margin: 1.5rem 0rem;
+}
+.meaning-output {
+  margin: auto;
+  width: 70%;
+  height: 1rem;
+  font-weight: bolder;
+  font-size: larger;
+  /* border: 0.2rem solid black; */
+  /* padding: 1rem; */
+}
+.emozies-div{
+  /* background-color: white; */
+  border-radius: 0.7rem;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+  color: black;
+}
+.emozies{
+  margin: 0rem 0.2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
