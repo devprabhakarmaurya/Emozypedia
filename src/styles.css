@@ -1,17 +1,19 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  margin: 5rem 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 body {
   background-color: black;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  min-height: 90vh;
 }
 .user-input {
   width: 60%;
-  padding: 2rem;
-  font-size: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
   border-radius: 0.7rem;
   margin: 1.5rem 0rem;
 }
@@ -20,11 +22,11 @@ body {
   width: 70%;
   height: 1rem;
   font-weight: bolder;
-  font-size: larger;
+  font-size: 2rem;
   /* border: 0.2rem solid black; */
   /* padding: 1rem; */
 }
-.emozies-div{
+.emozies-div {
   /* background-color: white; */
   border-radius: 0.7rem;
   width: 80%;
@@ -32,8 +34,8 @@ body {
   padding: 1rem;
   color: black;
 }
-.emozies{
-  margin: 0rem 0.2rem;
+.emozies {
+  margin: 0rem 0.5rem;
   font-size: 2rem;
   cursor: pointer;
 }
