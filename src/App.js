@@ -92,8 +92,8 @@ export default function App() {
     let userInput = event.target.value;
     let meaning = emojiMeanings[userInput];
 
-    if (userInput === undefined) {
-      setMeaning("Failure to read your emozy");
+    if (meaning === undefined) {
+      setMeaning("Failure to read your emoji");
     } else {
       setMeaning(meaning);
     }
